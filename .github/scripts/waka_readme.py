@@ -64,7 +64,7 @@ def enc(text):
 
 def chip(name, t):
     logo = LANG_LOGO.get(name)
-    url = f"https://img.shields.io/badge/{enc(name)}-{enc(t)}-{BG}?style=flat&labelColor={BG}"
+    url = f"https://img.shields.io/badge/{enc(f'{name} ({t})')}-{BG}?style=flat"
     if logo:
         url += f"&logo={logo}&logoColor={ACCENT}"
     return f"![{name}]({url})"
