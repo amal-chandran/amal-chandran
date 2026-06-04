@@ -13,14 +13,32 @@ import os
 import re
 import urllib.request
 
-LANG_URL = "https://wakatime.com/share/@amalchandran_me/260eb1c6-c9a6-47e3-8886-5639353daae5.json"
-ACT_URL = "https://wakatime.com/share/@amalchandran_me/b36c600d-6d8c-41d3-8238-d8b0b62fb182.json"
+# Public WakaTime "All Time" languages share (no API key needed) — has absolute
+# lifetime hours per language (total_seconds / text fields).
+LANG_URL = "https://wakatime.com/share/@amalchandran_me/1a05ded7-9f58-47f5-8796-de7c952a0254.json"
 
 README = os.path.join(os.path.dirname(__file__), "..", "..", "README.md")
 START = "<!--START_SECTION:waka-->"
 END = "<!--END_SECTION:waka-->"
-TOP_N = 8
-BAR_W = 22
+TOP_N = 12
+
+# Generic / non-language buckets to drop from the showcase.
+SKIP = {"Other", "Text"}
+
+# Chip styling (mirrors the tech-stack tags).
+BG = "1F2328"
+ACCENT = "FF5C35"
+
+# Language name -> simple-icons logo slug (omitted langs render as a plain chip).
+LANG_LOGO = {
+    "TypeScript": "typescript", "JavaScript": "javascript", "Python": "python",
+    "Markdown": "markdown", "Bash": "gnubash", "sh": "gnubash", "Shell": "gnubash",
+    "YAML": "yaml", "JSON": "json", "Dart": "dart", "Java": "openjdk", "JSX": "react",
+    "HTML": "html5", "CSS": "css3", "SCSS": "sass", "LESS": "less", "Lua": "lua",
+    "Go": "go", "Rust": "rust", "PHP": "php", "Ruby": "ruby", "Kotlin": "kotlin",
+    "Swift": "swift", "Vue.js": "vuedotjs", "C++": "cplusplus", "C": "c",
+    "TOML": "toml", "GraphQL": "graphql", "Docker": "docker", "Dockerfile": "docker",
+}
 
 
 def get(url):
@@ -30,39 +48,33 @@ def get(url):
 
 
 def fmt(secs):
+    """Compact time for a chip: whole hours (with thousands sep) once >= 1h, else minutes."""
     secs = int(round(secs))
-    h, m = secs // 3600, (secs % 3600) // 60
-    if h and m:
-        return f"{h} hr{'s' if h != 1 else ''} {m} min{'s' if m != 1 else ''}"
-    if h:
-        return f"{h} hr{'s' if h != 1 else ''}"
+    if secs >= 3600:
+        h = round(secs / 3600)
+        return f"{h:,} hr{'s' if h != 1 else ''}"
+    m = round(secs / 60)
     return f"{m} min{'s' if m != 1 else ''}"
 
 
+def enc(text):
+    """Encode a label/message for a shields.io path segment."""
+    return text.replace("-", "--").replace(" ", "_").replace("/", "%2F")
+
+
+def chip(name, t):
+    logo = LANG_LOGO.get(name)
+    url = f"https://img.shields.io/badge/{enc(name)}-{enc(t)}-{BG}?style=flat&labelColor={BG}"
+    if logo:
+        url += f"&logo={logo}&logoColor={ACCENT}"
+    return f"![{name}]({url})"
+
+
 def main():
-    langs = get(LANG_URL)
-    activity = get(ACT_URL)
-    total = sum(d["grand_total"]["total_seconds"] for d in activity)
+    langs = [l for l in get(LANG_URL) if l["name"] not in SKIP][:TOP_N]
+    chips = [chip(l["name"], fmt(l.get("total_seconds", 0))) for l in langs]
 
-    rows = []
-    for lang in langs[:TOP_N]:
-        pct = lang.get("percent", 0) or 0
-        rows.append((lang["name"], fmt(total * pct / 100), pct))
-
-    name_w = max((len(r[0]) for r in rows), default=4)
-    time_w = max((len(r[1]) for r in rows), default=4)
-
-    lines = []
-    for name, t, pct in rows:
-        filled = round(pct / 100 * BAR_W)
-        bar = "█" * filled + "░" * (BAR_W - filled)
-        lines.append(f"{name.ljust(name_w)}   {t.ljust(time_w)}   {bar}   {pct:5.2f} %")
-
-    block = (
-        "```text\n"
-        + "\n".join(lines)
-        + f"\n\nTotal: {fmt(total)} over the last 7 days\n```"
-    )
+    block = "\n".join(chips) + "\n\n_Lifetime coding hours, via WakaTime._"
 
     with open(README, encoding="utf-8") as f:
         content = f.read()

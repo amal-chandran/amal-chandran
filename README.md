@@ -44,20 +44,22 @@ I'm a problem solver at heart — backend-first, frontend-fluent, and happiest t
 ![Web3](https://img.shields.io/badge/Web3-1F2328?style=flat&logo=web3dotjs&logoColor=FF5C35)
 ![REST](https://img.shields.io/badge/REST-1F2328?style=flat)
 
-**⏱️ Where the hours go** &nbsp;·&nbsp; *last 7 days, auto-updated*
+**Languages** &nbsp;·&nbsp; *lifetime coding hours*
 
 <!--START_SECTION:waka-->
-```text
-Markdown     6 hrs 4 mins   █████████░░░░░░░░░░░░░   41.39 %
-Other        3 hrs 9 mins   █████░░░░░░░░░░░░░░░░░   21.45 %
-Batchfile    1 hr 7 mins    ██░░░░░░░░░░░░░░░░░░░░    7.64 %
-TypeScript   55 mins        █░░░░░░░░░░░░░░░░░░░░░    6.32 %
-SQL          48 mins        █░░░░░░░░░░░░░░░░░░░░░    5.53 %
-Bash         46 mins        █░░░░░░░░░░░░░░░░░░░░░    5.24 %
-YAML         29 mins        █░░░░░░░░░░░░░░░░░░░░░    3.35 %
-Text         24 mins        █░░░░░░░░░░░░░░░░░░░░░    2.76 %
+![TypeScript](https://img.shields.io/badge/TypeScript-2,204_hrs-1F2328?style=flat&labelColor=1F2328&logo=typescript&logoColor=FF5C35)
+![JavaScript](https://img.shields.io/badge/JavaScript-457_hrs-1F2328?style=flat&labelColor=1F2328&logo=javascript&logoColor=FF5C35)
+![sh](https://img.shields.io/badge/sh-440_hrs-1F2328?style=flat&labelColor=1F2328&logo=gnubash&logoColor=FF5C35)
+![YAML](https://img.shields.io/badge/YAML-215_hrs-1F2328?style=flat&labelColor=1F2328&logo=yaml&logoColor=FF5C35)
+![JSON](https://img.shields.io/badge/JSON-215_hrs-1F2328?style=flat&labelColor=1F2328&logo=json&logoColor=FF5C35)
+![Markdown](https://img.shields.io/badge/Markdown-87_hrs-1F2328?style=flat&labelColor=1F2328&logo=markdown&logoColor=FF5C35)
+![JSX](https://img.shields.io/badge/JSX-81_hrs-1F2328?style=flat&labelColor=1F2328&logo=react&logoColor=FF5C35)
+![Bash](https://img.shields.io/badge/Bash-75_hrs-1F2328?style=flat&labelColor=1F2328&logo=gnubash&logoColor=FF5C35)
+![SQL](https://img.shields.io/badge/SQL-49_hrs-1F2328?style=flat&labelColor=1F2328)
+![GraphQL](https://img.shields.io/badge/GraphQL-48_hrs-1F2328?style=flat&labelColor=1F2328&logo=graphql&logoColor=FF5C35)
+![HTML](https://img.shields.io/badge/HTML-41_hrs-1F2328?style=flat&labelColor=1F2328&logo=html5&logoColor=FF5C35)
+![Makefile](https://img.shields.io/badge/Makefile-39_hrs-1F2328?style=flat&labelColor=1F2328)
 
-Total: 14 hrs 41 mins over the last 7 days
-```
+_Lifetime coding hours, via WakaTime._
 <!--END_SECTION:waka-->
 
