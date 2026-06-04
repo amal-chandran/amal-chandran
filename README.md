@@ -44,9 +44,11 @@ I'm a problem solver at heart — backend-first, frontend-fluent, and happiest t
 ![Web3](https://img.shields.io/badge/Web3-1F2328?style=flat&logo=web3dotjs&logoColor=FF5C35)
 ![REST](https://img.shields.io/badge/REST-1F2328?style=flat)
 
-**Languages** &nbsp;·&nbsp; *lifetime coding hours*
+**Languages**
 
 <!--START_SECTION:waka-->
+**⏱️ ~4,900 hrs tracked** &nbsp;·&nbsp; **42 languages** &nbsp;·&nbsp; **TypeScript-first**
+
 ![TypeScript](https://img.shields.io/badge/TypeScript_(2,204_hrs)-1F2328?style=flat&logo=typescript&logoColor=FF5C35)
 ![JavaScript](https://img.shields.io/badge/JavaScript_(457_hrs)-1F2328?style=flat&logo=javascript&logoColor=FF5C35)
 ![sh](https://img.shields.io/badge/sh_(440_hrs)-1F2328?style=flat&logo=gnubash&logoColor=FF5C35)

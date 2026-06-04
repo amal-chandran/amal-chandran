@@ -71,10 +71,19 @@ def chip(name, t):
 
 
 def main():
-    langs = [l for l in get(LANG_URL) if l["name"] not in SKIP][:TOP_N]
+    data = get(LANG_URL)
+    total_hrs = round(sum(x.get("total_seconds", 0) for x in data) / 3600 / 100) * 100
+    count = sum(1 for x in data if x.get("total_seconds", 0) >= 3600)
+    top = max(data, key=lambda x: x.get("total_seconds", 0))["name"]
+
+    langs = [l for l in data if l["name"] not in SKIP][:TOP_N]
     chips = [chip(l["name"], fmt(l.get("total_seconds", 0))) for l in langs]
 
-    block = "\n".join(chips) + "\n\n_Lifetime coding hours, via WakaTime._"
+    headline = (
+        f"**⏱️ ~{total_hrs:,} hrs tracked** &nbsp;·&nbsp; "
+        f"**{count} languages** &nbsp;·&nbsp; **{top}-first**"
+    )
+    block = headline + "\n\n" + "\n".join(chips) + "\n\n_Lifetime coding hours, via WakaTime._"
 
     with open(README, encoding="utf-8") as f:
         content = f.read()
