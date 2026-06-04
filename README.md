@@ -6,6 +6,27 @@ Senior Software Engineer with **5+ years** building full-stack products across *
 
 I'm a problem solver at heart — backend-first, frontend-fluent, and happiest turning a fuzzy requirement into a system that ships and scales.
 
+**Languages**
+
+<!--START_SECTION:waka-->
+**⏱️ 4,868 hrs tracked** &nbsp;·&nbsp; **42 languages** &nbsp;·&nbsp; **TypeScript-first**
+
+![TypeScript](https://img.shields.io/badge/TypeScript_(2,204_hrs)-1F2328?style=flat&logo=typescript&logoColor=FF5C35)
+![JavaScript](https://img.shields.io/badge/JavaScript_(457_hrs)-1F2328?style=flat&logo=javascript&logoColor=FF5C35)
+![sh](https://img.shields.io/badge/sh_(440_hrs)-1F2328?style=flat&logo=gnubash&logoColor=FF5C35)
+![YAML](https://img.shields.io/badge/YAML_(215_hrs)-1F2328?style=flat&logo=yaml&logoColor=FF5C35)
+![JSON](https://img.shields.io/badge/JSON_(215_hrs)-1F2328?style=flat&logo=json&logoColor=FF5C35)
+![Markdown](https://img.shields.io/badge/Markdown_(87_hrs)-1F2328?style=flat&logo=markdown&logoColor=FF5C35)
+![JSX](https://img.shields.io/badge/JSX_(81_hrs)-1F2328?style=flat&logo=react&logoColor=FF5C35)
+![Bash](https://img.shields.io/badge/Bash_(75_hrs)-1F2328?style=flat&logo=gnubash&logoColor=FF5C35)
+![SQL](https://img.shields.io/badge/SQL_(49_hrs)-1F2328?style=flat)
+![GraphQL](https://img.shields.io/badge/GraphQL_(48_hrs)-1F2328?style=flat&logo=graphql&logoColor=FF5C35)
+![HTML](https://img.shields.io/badge/HTML_(41_hrs)-1F2328?style=flat&logo=html5&logoColor=FF5C35)
+![Makefile](https://img.shields.io/badge/Makefile_(39_hrs)-1F2328?style=flat)
+
+_Lifetime coding hours, via WakaTime._
+<!--END_SECTION:waka-->
+
 **Backend & Architecture**
 
 ![Node.js](https://img.shields.io/badge/Node.js-1F2328?style=flat&logo=nodedotjs&logoColor=FF5C35)
@@ -43,25 +64,4 @@ I'm a problem solver at heart — backend-first, frontend-fluent, and happiest t
 ![Clerk](https://img.shields.io/badge/Clerk-1F2328?style=flat&logo=clerk&logoColor=FF5C35)
 ![Web3](https://img.shields.io/badge/Web3-1F2328?style=flat&logo=web3dotjs&logoColor=FF5C35)
 ![REST](https://img.shields.io/badge/REST-1F2328?style=flat)
-
-**Languages**
-
-<!--START_SECTION:waka-->
-**⏱️ 4,868 hrs tracked** &nbsp;·&nbsp; **42 languages** &nbsp;·&nbsp; **TypeScript-first**
-
-![TypeScript](https://img.shields.io/badge/TypeScript_(2,204_hrs)-1F2328?style=flat&logo=typescript&logoColor=FF5C35)
-![JavaScript](https://img.shields.io/badge/JavaScript_(457_hrs)-1F2328?style=flat&logo=javascript&logoColor=FF5C35)
-![sh](https://img.shields.io/badge/sh_(440_hrs)-1F2328?style=flat&logo=gnubash&logoColor=FF5C35)
-![YAML](https://img.shields.io/badge/YAML_(215_hrs)-1F2328?style=flat&logo=yaml&logoColor=FF5C35)
-![JSON](https://img.shields.io/badge/JSON_(215_hrs)-1F2328?style=flat&logo=json&logoColor=FF5C35)
-![Markdown](https://img.shields.io/badge/Markdown_(87_hrs)-1F2328?style=flat&logo=markdown&logoColor=FF5C35)
-![JSX](https://img.shields.io/badge/JSX_(81_hrs)-1F2328?style=flat&logo=react&logoColor=FF5C35)
-![Bash](https://img.shields.io/badge/Bash_(75_hrs)-1F2328?style=flat&logo=gnubash&logoColor=FF5C35)
-![SQL](https://img.shields.io/badge/SQL_(49_hrs)-1F2328?style=flat)
-![GraphQL](https://img.shields.io/badge/GraphQL_(48_hrs)-1F2328?style=flat&logo=graphql&logoColor=FF5C35)
-![HTML](https://img.shields.io/badge/HTML_(41_hrs)-1F2328?style=flat&logo=html5&logoColor=FF5C35)
-![Makefile](https://img.shields.io/badge/Makefile_(39_hrs)-1F2328?style=flat)
-
-_Lifetime coding hours, via WakaTime._
-<!--END_SECTION:waka-->
 
