@@ -47,6 +47,17 @@ I'm a problem solver at heart — backend-first, frontend-fluent, and happiest t
 **⏱️ Where the hours go** &nbsp;·&nbsp; *last 7 days, auto-updated*
 
 <!--START_SECTION:waka-->
-_Coding stats will appear here after the first scheduled run._
+```text
+Markdown     6 hrs 4 mins   █████████░░░░░░░░░░░░░   41.39 %
+Other        3 hrs 9 mins   █████░░░░░░░░░░░░░░░░░   21.45 %
+Batchfile    1 hr 7 mins    ██░░░░░░░░░░░░░░░░░░░░    7.64 %
+TypeScript   55 mins        █░░░░░░░░░░░░░░░░░░░░░    6.32 %
+SQL          48 mins        █░░░░░░░░░░░░░░░░░░░░░    5.53 %
+Bash         46 mins        █░░░░░░░░░░░░░░░░░░░░░    5.24 %
+YAML         29 mins        █░░░░░░░░░░░░░░░░░░░░░    3.35 %
+Text         24 mins        █░░░░░░░░░░░░░░░░░░░░░    2.76 %
+
+Total: 14 hrs 41 mins over the last 7 days
+```
 <!--END_SECTION:waka-->
 
