@@ -47,7 +47,7 @@ I'm a problem solver at heart — backend-first, frontend-fluent, and happiest t
 **Languages**
 
 <!--START_SECTION:waka-->
-**⏱️ ~4,900 hrs tracked** &nbsp;·&nbsp; **42 languages** &nbsp;·&nbsp; **TypeScript-first**
+**⏱️ 4,868 hrs tracked** &nbsp;·&nbsp; **42 languages** &nbsp;·&nbsp; **TypeScript-first**
 
 ![TypeScript](https://img.shields.io/badge/TypeScript_(2,204_hrs)-1F2328?style=flat&logo=typescript&logoColor=FF5C35)
 ![JavaScript](https://img.shields.io/badge/JavaScript_(457_hrs)-1F2328?style=flat&logo=javascript&logoColor=FF5C35)

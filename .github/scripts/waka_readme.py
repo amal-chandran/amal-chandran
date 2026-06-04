@@ -72,7 +72,7 @@ def chip(name, t):
 
 def main():
     data = get(LANG_URL)
-    total_hrs = round(sum(x.get("total_seconds", 0) for x in data) / 3600 / 100) * 100
+    total_hrs = round(sum(x.get("total_seconds", 0) for x in data) / 3600)
     count = sum(1 for x in data if x.get("total_seconds", 0) >= 3600)
     top = max(data, key=lambda x: x.get("total_seconds", 0))["name"]
 
@@ -80,7 +80,7 @@ def main():
     chips = [chip(l["name"], fmt(l.get("total_seconds", 0))) for l in langs]
 
     headline = (
-        f"**⏱️ ~{total_hrs:,} hrs tracked** &nbsp;·&nbsp; "
+        f"**⏱️ {total_hrs:,} hrs tracked** &nbsp;·&nbsp; "
         f"**{count} languages** &nbsp;·&nbsp; **{top}-first**"
     )
     block = headline + "\n\n" + "\n".join(chips) + "\n\n_Lifetime coding hours, via WakaTime._"
