@@ -9,14 +9,14 @@ I'm a problem solver at heart — backend-first, frontend-fluent, and happiest t
 **Languages**
 
 <!--START_SECTION:waka-->
-**⏱️ 4,939 hrs tracked** &nbsp;·&nbsp; **43 languages** &nbsp;·&nbsp; **TypeScript-first**
+**⏱️ 4,941 hrs tracked** &nbsp;·&nbsp; **43 languages** &nbsp;·&nbsp; **TypeScript-first**
 
-![TypeScript](https://img.shields.io/badge/TypeScript_(2,228_hrs)-1F2328?style=flat&logo=typescript&logoColor=FF5C35)
+![TypeScript](https://img.shields.io/badge/TypeScript_(2,229_hrs)-1F2328?style=flat&logo=typescript&logoColor=FF5C35)
 ![JavaScript](https://img.shields.io/badge/JavaScript_(457_hrs)-1F2328?style=flat&logo=javascript&logoColor=FF5C35)
 ![sh](https://img.shields.io/badge/sh_(440_hrs)-1F2328?style=flat&logo=gnubash&logoColor=FF5C35)
 ![YAML](https://img.shields.io/badge/YAML_(216_hrs)-1F2328?style=flat&logo=yaml&logoColor=FF5C35)
 ![JSON](https://img.shields.io/badge/JSON_(216_hrs)-1F2328?style=flat&logo=json&logoColor=FF5C35)
-![Markdown](https://img.shields.io/badge/Markdown_(109_hrs)-1F2328?style=flat&logo=markdown&logoColor=FF5C35)
+![Markdown](https://img.shields.io/badge/Markdown_(110_hrs)-1F2328?style=flat&logo=markdown&logoColor=FF5C35)
 ![JSX](https://img.shields.io/badge/JSX_(81_hrs)-1F2328?style=flat&logo=react&logoColor=FF5C35)
 ![Bash](https://img.shields.io/badge/Bash_(76_hrs)-1F2328?style=flat&logo=gnubash&logoColor=FF5C35)
 ![SQL](https://img.shields.io/badge/SQL_(49_hrs)-1F2328?style=flat)
