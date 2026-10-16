@@ -16,7 +16,7 @@ I'm a problem solver at heart — backend-first, frontend-fluent, and happiest t
 ![sh](https://img.shields.io/badge/sh_(440_hrs)-1F2328?style=flat&logo=gnubash&logoColor=FF5C35)
 ![YAML](https://img.shields.io/badge/YAML_(217_hrs)-1F2328?style=flat&logo=yaml&logoColor=FF5C35)
 ![JSON](https://img.shields.io/badge/JSON_(217_hrs)-1F2328?style=flat&logo=json&logoColor=FF5C35)
-![Markdown](https://img.shields.io/badge/Markdown_(140_hrs)-1F2328?style=flat&logo=markdown&logoColor=FF5C35)
+![Markdown](https://img.shields.io/badge/Markdown_(141_hrs)-1F2328?style=flat&logo=markdown&logoColor=FF5C35)
 ![JSX](https://img.shields.io/badge/JSX_(81_hrs)-1F2328?style=flat&logo=react&logoColor=FF5C35)
 ![Bash](https://img.shields.io/badge/Bash_(77_hrs)-1F2328?style=flat&logo=gnubash&logoColor=FF5C35)
 ![SQL](https://img.shields.io/badge/SQL_(51_hrs)-1F2328?style=flat)
