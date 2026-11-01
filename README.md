@@ -9,9 +9,9 @@ I'm a problem solver at heart — backend-first, frontend-fluent, and happiest t
 **Languages**
 
 <!--START_SECTION:waka-->
-**⏱️ 5,061 hrs tracked** &nbsp;·&nbsp; **43 languages** &nbsp;·&nbsp; **TypeScript-first**
+**⏱️ 5,066 hrs tracked** &nbsp;·&nbsp; **43 languages** &nbsp;·&nbsp; **TypeScript-first**
 
-![TypeScript](https://img.shields.io/badge/TypeScript_(2,245_hrs)-1F2328?style=flat&logo=typescript&logoColor=FF5C35)
+![TypeScript](https://img.shields.io/badge/TypeScript_(2,246_hrs)-1F2328?style=flat&logo=typescript&logoColor=FF5C35)
 ![JavaScript](https://img.shields.io/badge/JavaScript_(458_hrs)-1F2328?style=flat&logo=javascript&logoColor=FF5C35)
 ![sh](https://img.shields.io/badge/sh_(440_hrs)-1F2328?style=flat&logo=gnubash&logoColor=FF5C35)
 ![JSON](https://img.shields.io/badge/JSON_(218_hrs)-1F2328?style=flat&logo=json&logoColor=FF5C35)
