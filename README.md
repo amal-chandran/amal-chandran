@@ -9,18 +9,18 @@ I'm a problem solver at heart — backend-first, frontend-fluent, and happiest t
 **Languages**
 
 <!--START_SECTION:waka-->
-**⏱️ 5,139 hrs tracked** &nbsp;·&nbsp; **43 languages** &nbsp;·&nbsp; **TypeScript-first**
+**⏱️ 5,152 hrs tracked** &nbsp;·&nbsp; **43 languages** &nbsp;·&nbsp; **TypeScript-first**
 
-![TypeScript](https://img.shields.io/badge/TypeScript_(2,268_hrs)-1F2328?style=flat&logo=typescript&logoColor=FF5C35)
-![JavaScript](https://img.shields.io/badge/JavaScript_(459_hrs)-1F2328?style=flat&logo=javascript&logoColor=FF5C35)
+![TypeScript](https://img.shields.io/badge/TypeScript_(2,270_hrs)-1F2328?style=flat&logo=typescript&logoColor=FF5C35)
+![JavaScript](https://img.shields.io/badge/JavaScript_(460_hrs)-1F2328?style=flat&logo=javascript&logoColor=FF5C35)
 ![sh](https://img.shields.io/badge/sh_(440_hrs)-1F2328?style=flat&logo=gnubash&logoColor=FF5C35)
 ![JSON](https://img.shields.io/badge/JSON_(222_hrs)-1F2328?style=flat&logo=json&logoColor=FF5C35)
 ![YAML](https://img.shields.io/badge/YAML_(218_hrs)-1F2328?style=flat&logo=yaml&logoColor=FF5C35)
-![Markdown](https://img.shields.io/badge/Markdown_(175_hrs)-1F2328?style=flat&logo=markdown&logoColor=FF5C35)
+![Markdown](https://img.shields.io/badge/Markdown_(178_hrs)-1F2328?style=flat&logo=markdown&logoColor=FF5C35)
 ![JSX](https://img.shields.io/badge/JSX_(81_hrs)-1F2328?style=flat&logo=react&logoColor=FF5C35)
-![Bash](https://img.shields.io/badge/Bash_(79_hrs)-1F2328?style=flat&logo=gnubash&logoColor=FF5C35)
+![Bash](https://img.shields.io/badge/Bash_(80_hrs)-1F2328?style=flat&logo=gnubash&logoColor=FF5C35)
+![HTML](https://img.shields.io/badge/HTML_(53_hrs)-1F2328?style=flat&logo=html5&logoColor=FF5C35)
 ![SQL](https://img.shields.io/badge/SQL_(52_hrs)-1F2328?style=flat)
-![HTML](https://img.shields.io/badge/HTML_(51_hrs)-1F2328?style=flat&logo=html5&logoColor=FF5C35)
 ![GraphQL](https://img.shields.io/badge/GraphQL_(49_hrs)-1F2328?style=flat&logo=graphql&logoColor=FF5C35)
 ![Makefile](https://img.shields.io/badge/Makefile_(39_hrs)-1F2328?style=flat)
 
